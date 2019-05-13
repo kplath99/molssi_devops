@@ -6,6 +6,35 @@ Handles the primary functions
 """
 
 
+def mean(my_list):
+    """
+    return the mean of a list
+
+    Parameters
+    ----------
+    my_list : list of numbers to take average of
+
+    Returns
+    -------
+    average : flt
+        The mean of the list
+
+    Examples
+    --------
+    >>>md.mean([1.0, 2.0, 3.0])
+    2.0
+    """
+
+    if not isinstance(my_list, list):
+        raise TypeError("Mean:  {} is not a list".format(my_list))
+    if len(my_list) == 0:
+        raise ZeroDivisionError("Mean: the input list contains no elements")
+        
+    average = sum(my_list) / len(my_list)
+
+    return average
+
+
 def canvas(with_attribution=True):
     """
     Placeholder function to show example docstring (NumPy format)

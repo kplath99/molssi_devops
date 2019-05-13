@@ -4,7 +4,8 @@ best practices workshop
 """
 
 # Add imports here
-from .molssi_math import *
+from .molssi_math import mean, canvas
+from .util import title_case
 
 # Handle versioneer
 from ._version import get_versions
