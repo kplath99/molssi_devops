@@ -5,6 +5,7 @@ A sample repository for the MolSSI Python package development workshop
 Misc. utility functions
 """
 
+
 def title_case(sentence):
     """
     Convert a string to title case.
