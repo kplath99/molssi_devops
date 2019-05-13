@@ -3,3 +3,7 @@ creating a merge conflict
 *******
 more edits from one repo
 *******
+
+-------------------------
+stuff added from github.com
+-------------------------
